@@ -31,7 +31,7 @@ export default class follow extends React.Component {
         return (
             <div className="animated flip ani-box">
                 <div><a href="https://github.com/KaixinChen0512" className="welcome animated flip text" style={{ color: col }}>项目地址</a></div>
-                <img src={require('../../images/face.png')} width="300" alt="logo" className="lastPic" />
+                <img src="http://oudaz22af.bkt.clouddn.com/face.png" width="300" alt="logo" className="lastPic" />
                 <div className="animated swing discribe">本系统主要致力于高效化石油管道工程管理</div>
                 <div className="animated swing discribe">项目源码请访问<a href="https://github.com/KaixinChen0512">我的GitHub</a>。欢迎 <a href="http://chenkaixin.cn">访问我的个人主页!</a></div>
             </div>
