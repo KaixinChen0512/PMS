@@ -128,6 +128,5 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "homepage": "https://github.com/KaixinChen0512"
+  }
 }
