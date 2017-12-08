@@ -48,7 +48,7 @@ export default class Gallery extends React.Component {
     render() {
         const imgs = [
             [
-                'http://oudaz22af.bkt.clouddn.com/a1.jpg',
+                'http://pms-img.oss-cn-beijing.aliyuncs.com/pipe-img/pipe%20%281%29.jpg?Expires=1512716856&OSSAccessKeyId=TMP.AQEosCqcsYrSo81JphBL5WaZeqpdnmVEnf4muUAn98TrBCugjfTaiD88-9_-ADAtAhUAib6QIpeVdvW_ofpLUESHZyalNxYCFAK4GV4IbT-g6NwnlD0qY8wGbE1s&Signature=k2wVGYaQPWbsdYyTD20zcG1%2B7JY%3D',
                 'http://oudaz22af.bkt.clouddn.com/a2.jpg',
                 'http://oudaz22af.bkt.clouddn.com/a3.jpg',
                 'http://oudaz22af.bkt.clouddn.com/a4.jpg',
@@ -92,7 +92,7 @@ export default class Gallery extends React.Component {
                         </div>
                         <div className="pa-m">
                             <h3>项目实景</h3>
-                            <small><a href="https://github.com/KaixinChen0512" target="_blank" rel='noopener noreferrer'>https://github.com/KaixinChen0512</a></small>
+                            <small><a href="http://chenkaixin.cn" target="_blank" rel='noopener noreferrer'>http://chenkaixin.cn</a></small>
                         </div>
                     </Card>
                 </div>
