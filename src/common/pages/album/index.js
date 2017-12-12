@@ -49,7 +49,7 @@ export default class Gallery extends React.Component {
         const imgs = [
             [
                 'http://pms-img.oss-cn-beijing.aliyuncs.com/pipe-img/pipe%20%281%29.jpg?Expires=1512716856&OSSAccessKeyId=TMP.AQEosCqcsYrSo81JphBL5WaZeqpdnmVEnf4muUAn98TrBCugjfTaiD88-9_-ADAtAhUAib6QIpeVdvW_ofpLUESHZyalNxYCFAK4GV4IbT-g6NwnlD0qY8wGbE1s&Signature=k2wVGYaQPWbsdYyTD20zcG1%2B7JY%3D',
-                'http://oudaz22af.bkt.clouddn.com/a2.jpg',
+                'http://oudaz22af.bkt.clouddn.com/pipe%20%283%29.jpg',
                 'http://oudaz22af.bkt.clouddn.com/a3.jpg',
                 'http://oudaz22af.bkt.clouddn.com/a4.jpg',
                 'http://oudaz22af.bkt.clouddn.com/a5.jpg'
