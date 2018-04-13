@@ -9,6 +9,8 @@ import {
   Form,
   Radio,
   Switch,
+  Upload,
+  Icon
 } from 'antd'
 
 import './index.less'
@@ -106,19 +108,19 @@ class ModForm extends React.Component {
     defaultChecked={field.options.initialValue}
   />
 
-  // getUploadField = field =>
-  //   <Upload
-  //     name="logo"
-  //     action="/"
-  //     listType="picture"
-  //     beforeUpload={field.options.beforeUpload}
-  //     onChange={field.options.onChange}
-  //     disabled={field.options.disabled}
-  //   >
-  //     <Button>
-  //       <Icon type="upload" /> 点击上传
-  //   </Button>
-  //   </Upload>
+  getUploadField = field =>
+    <Upload
+      name="logo"
+      action="/"
+      listType="picture"
+      beforeUpload={field.options.beforeUpload}
+      onChange={field.options.onChange}
+      disabled={field.options.disabled}
+    >
+      <Button>
+        <Icon type="upload" /> 点击上传
+    </Button>
+    </Upload>
   getUploadField = field =>
     <input
       type="file"
