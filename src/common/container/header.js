@@ -46,7 +46,7 @@ export default class Top extends React.Component {
                 />
                 <Menu mode="horizontal" className="logOut" onClick={this.clear}>
                     <SubMenu title={<span><Icon type="user" />{ this.state.username }</span>} >
-                        <Menu.Item key="logOut"><Link to="/login" >退出</Link></Menu.Item>
+                        <Menu.Item key="logOut"><Link to="/" >退出</Link></Menu.Item>
                     </SubMenu>
                 </Menu>
                 {/* <Icon

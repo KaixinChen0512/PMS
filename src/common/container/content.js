@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Component} from 'react';
 import { Route } from 'react-router-dom'
 import { Layout } from 'antd'
 import './content.less'
@@ -14,7 +14,7 @@ import Search from 'pages/search'
 
 const { Content } = Layout
 
-export default class Contents extends React.Component {
+class Contents extends Component {
   render() {
     return (
       <Content className="content">
@@ -31,3 +31,4 @@ export default class Contents extends React.Component {
     );
   }
 }
+export default Contents;
